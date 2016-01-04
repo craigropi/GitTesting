@@ -1,0 +1,11 @@
+# Comment
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log/
+# Subdirectories are not included automatically; a file in log/archive/access.log would NOT be ignored.
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
